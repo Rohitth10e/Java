@@ -6,8 +6,21 @@ public class Main {
                 sb.append(str.charAt(i-1));
             }
         return sb.toString();
-    }    
+    }
+    
+    public static void printBin(int n,int lastPlace, String str){
+        if(n==0){
+            System.out.println(str);
+            return;
+        }
+
+        printBin(n-1, 0, str+"0");
+        if(lastPlace==0){
+            printBin(n-1, 1, str+"1");
+        }
+    }
     public static void main(String[] args) {
-        System.out.println(fn("010011"));
+        // System.out.println(fn("010011"));
+        printBin(3, 0, "");
     }
 }
