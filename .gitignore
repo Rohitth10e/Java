@@ -1,0 +1,30 @@
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Build output
+/out/
+build/
+target/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+node_modules/
+dist/
+
+# Java-specific
+*.class
+*.jar
+*.war
+*.ear
+
+# VS Code (if used alongside)
+.vscode/

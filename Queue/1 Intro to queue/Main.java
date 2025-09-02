@@ -66,7 +66,6 @@ public class Main{
         }
         q.printQueue();
         q.remove();
-        q.printQueue();
         while(!q.isEmpty()){
             System.out.println(q.peek());
             q.remove();
